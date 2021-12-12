@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 105vh;
+  background: linear-gradient(rgb(255, 0, 200), rgb(145, 6, 103));
+}
+html,
+body {
+  font-family: 'Francois One', sans-serif !important;
+}
+p {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: white;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+.col-6 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.col-12 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+input {
+  font-family: 'Francois One', sans-serif !important;
+}
+.left {
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.right {
+  font-size: 1rem;
+  margin-top: 4rem;
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+  margin-left: 10rem;
+}
+.heading {
+  text-align: center;
+  color: white !important;
+  font-size: 3rem;
+}
+.button {
+  margin-top: 1rem;
+  margin-left: 5rem;
+  padding: 6px 10px !important;
+  border: 0px;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: rgb(255, 0, 200);
+  font-family: 'Francois One', sans-serif !important;
+}
+.number {
+  background: transparent;
+  color: white;
+  border: 3px solid white;
+  border-radius: 5px;
+  font-size: 2rem;
+  width: 4rem;
+  padding: 0.3rem 0rem;
+  text-align: center;
+  position: absolute;
+  left: 43%;
+}
+
+.between {
+  margin-top: 1rem;
+  text-align: right;
+  font-size: 1.5rem;
+  color: white;
+  margin-right: 1rem;
+}
+.guess {
+  background: transparent;
+  color: white;
+  border: 3px solid white;
+  border-radius: 5px;
+  font-size: 2rem;
+  width: 6rem;
+  padding: 0.3rem 0rem;
+  text-align: center;
+  margin-top: 7rem;
+  margin-left: 7rem;
+}

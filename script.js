@@ -40,6 +40,15 @@ document.querySelector('.check').addEventListener('click', function () {
     } else {
       document.querySelector('.message').textContent = '😥 You lost the game';
     }
+  } else if (guess + 2 === highScore && guess - 2 === highScore) {
+    if (score > 0) {
+      document.querySelector('.message').textContent =
+        '💹 You are near your right guess';
+      score--;
+      document.querySelector('.score').textContent = score;
+    } else {
+      document.querySelector('.message').textContent = '😥 You lost the game';
+    }
   }
 });
 
